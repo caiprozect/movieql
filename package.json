@@ -1,0 +1,20 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "GraphQL rise",
+  "main": "index.js",
+  "author": "cai",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.8",
+    "axios": "^0.25.0",
+    "graphql-yoga": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {}
+}
